@@ -48,6 +48,29 @@ def read_md5_txt(txt_path):
     return None
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(
+        description="Verify and unify map chunk files back into a single map archive."
+    )
+    parser.add_argument(
+        "-d", "--date",
+        help="Date directory name to unify (e.g., 15-05-2026). If not provided, lists available directories interactively."
+    )
+    parser.add_argument(
+        "-x", "--decompress",
+        dest="decompress",
+        action="store_true",
+        default=None,
+        help="Force decompression of the unified archive without prompting."
+    )
+    parser.add_argument(
+        "-n", "--no-decompress",
+        dest="decompress",
+        action="store_false",
+        help="Skip decompression of the unified archive without prompting."
+    )
+    args = parser.parse_args()
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.join(script_dir, 'datamaps')
     
@@ -63,22 +86,30 @@ def main():
         print(f"No date directories found in {base_dir}")
         sys.exit(1)
 
-    # Interactive selection
-    print("Available map data dates for unification:")
-    for i, date_dir in enumerate(date_dirs):
-        print(f"{i + 1}. {date_dir}")
-    
-    try:
-        choice = input(f"\nSelect a directory [1-{len(date_dirs)}]: ")
-        index = int(choice) - 1
-        if 0 <= index < len(date_dirs):
-            selected_date = date_dirs[index]
-        else:
-            print("Invalid selection.")
+    selected_date = args.date
+
+    if not selected_date:
+        # Interactive selection
+        print("Available map data dates for unification:")
+        for i, date_dir in enumerate(date_dirs):
+            print(f"{i + 1}. {date_dir}")
+        
+        try:
+            choice = input(f"\nSelect a directory [1-{len(date_dirs)}]: ")
+            index = int(choice) - 1
+            if 0 <= index < len(date_dirs):
+                selected_date = date_dirs[index]
+            else:
+                print("Invalid selection.")
+                sys.exit(1)
+        except (ValueError, KeyboardInterrupt, EOFError):
+            print("\nOperation cancelled or invalid input.")
             sys.exit(1)
-    except (ValueError, KeyboardInterrupt, EOFError):
-        print("\nOperation cancelled or invalid input.")
-        sys.exit(1)
+    else:
+        if selected_date not in date_dirs:
+            print(f"Error: Date directory '{selected_date}' not found in {base_dir}.")
+            print(f"Available directories: {', '.join(date_dirs)}")
+            sys.exit(1)
 
     target_dir = os.path.join(base_dir, selected_date)
     chunks_dir = os.path.join(target_dir, 'chunks')
@@ -164,15 +195,18 @@ def main():
     else:
         print("\nNotice: md5-compressed.txt not found. Skipping unified archive verification.")
 
-    # 4. Decompression Prompt
-    print("\nDo you want to decompress the unified archive?")
-    try:
-        choice = input("Decompress? [Y/n]: ").strip().lower()
-        if choice not in ('', 'y', 'yes'):
-            print("Skipping decompression. Done!")
-            sys.exit(0)
-    except (KeyboardInterrupt, EOFError):
-        print("\nSkipping decompression. Done!")
+    # 4. Decompression check/prompt
+    should_decompress = args.decompress
+    if should_decompress is None:
+        print("\nDo you want to decompress the unified archive?")
+        try:
+            choice = input("Decompress? [Y/n]: ").strip().lower()
+            should_decompress = choice in ('', 'y', 'yes')
+        except (KeyboardInterrupt, EOFError):
+            should_decompress = False
+
+    if not should_decompress:
+        print("Skipping decompression. Done!")
         sys.exit(0)
 
     # 5. Decompress

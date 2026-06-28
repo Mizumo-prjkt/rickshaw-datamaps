@@ -98,6 +98,26 @@ def generate_hashes(selected_date, compressed_file_path="", original_file_path="
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(
+        description="Generate MD5 checksums for split chunks, compressed zip, and original map file."
+    )
+    parser.add_argument(
+        "-d", "--date",
+        help="Date directory name (e.g., 15-05-2026). If not provided, lists available directories interactively."
+    )
+    parser.add_argument(
+        "-c", "--compressed",
+        default="",
+        help="Path to pre-split compressed file (optional)."
+    )
+    parser.add_argument(
+        "-o", "--original",
+        default="",
+        help="Path to non-compressed original file (optional)."
+    )
+    args = parser.parse_args()
+
     # Resolve absolute path to mapdata/datamaps
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.join(script_dir, 'datamaps')
@@ -114,40 +134,51 @@ def main():
         print(f"No date directories found in {base_dir}")
         sys.exit(1)
 
-    selected_date = None
+    selected_date = args.date
+    compressed_file_path = args.compressed
+    original_file_path = args.original
 
-    # Interactive selection
-    print("Available map data dates:")
-    for i, date_dir in enumerate(date_dirs):
-        print(f"{i + 1}. {date_dir}")
-    
-    try:
-        choice = input(f"\nSelect a directory [1-{len(date_dirs)}]: ")
-        index = int(choice) - 1
-        if 0 <= index < len(date_dirs):
-            selected_date = date_dirs[index]
-        else:
-            print("Invalid selection.")
+    if not selected_date:
+        # Interactive selection
+        print("Available map data dates:")
+        for i, date_dir in enumerate(date_dirs):
+            print(f"{i + 1}. {date_dir}")
+        
+        try:
+            choice = input(f"\nSelect a directory [1-{len(date_dirs)}]: ")
+            index = int(choice) - 1
+            if 0 <= index < len(date_dirs):
+                selected_date = date_dirs[index]
+            else:
+                print("Invalid selection.")
+                sys.exit(1)
+        except ValueError:
+            print("Invalid input.")
             sys.exit(1)
-    except ValueError:
-        print("Invalid input.")
-        sys.exit(1)
-    except KeyboardInterrupt:
-        print("\nOperation cancelled.")
-        sys.exit(0)
-    except EOFError:
-        # Fallback if run non-interactively without inputs
-        print("Interactive prompt failed. Falling back to the first available directory.")
-        selected_date = date_dirs[0]
+        except KeyboardInterrupt:
+            print("\nOperation cancelled.")
+            sys.exit(0)
+        except EOFError:
+            # Fallback if run non-interactively without inputs
+            print("Interactive prompt failed. Falling back to the first available directory.")
+            selected_date = date_dirs[0]
 
-    # Prompt for optional files in interactive mode
-    print("\nOptional: Compute MD5 for pre-split compressed and original files.")
-    try:
-        compressed_file_path = input("Enter path to pre-split compressed file (leave blank to skip): ").strip()
-        original_file_path = input("Enter path to non-compressed original file (leave blank to skip): ").strip()
-    except (KeyboardInterrupt, EOFError):
-        compressed_file_path = ""
-        original_file_path = ""
+        # Prompt for optional files in interactive mode only if not provided via CLI
+        if not compressed_file_path or not original_file_path:
+            print("\nOptional: Compute MD5 for pre-split compressed and original files.")
+            try:
+                if not compressed_file_path:
+                    compressed_file_path = input("Enter path to pre-split compressed file (leave blank to skip): ").strip()
+                if not original_file_path:
+                    original_file_path = input("Enter path to non-compressed original file (leave blank to skip): ").strip()
+            except (KeyboardInterrupt, EOFError):
+                pass
+    else:
+        # Check if the provided date directory exists
+        if selected_date not in date_dirs:
+            print(f"Error: Date directory '{selected_date}' not found in {base_dir}.")
+            print(f"Available directories: {', '.join(date_dirs)}")
+            sys.exit(1)
 
     # Call the reusable function
     generate_hashes(selected_date, compressed_file_path, original_file_path)
