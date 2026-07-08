@@ -1,0 +1,3746 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-08T10:29:26Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1447665161,
+      "lat": 7.8226193,
+      "lon": 123.4369106,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "China Bank",
+        "brand:wikidata": "Q5100080",
+        "brand:wikipedia": "en:Chinabank",
+        "name": "China Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1447665177,
+      "lat": 7.8230483,
+      "lon": 123.4382263,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "C3 City Commercial Center",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "J. P. Rizal Avenue",
+        "name": "Robinsons Supermart",
+        "operator": "Robinsons Land Corporation",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2456921442,
+      "lat": 7.8342449,
+      "lon": 123.4401742,
+      "tags": {
+        "amenity": "university",
+        "name": "Western Mindanao State University- Pagadian",
+        "operator": "CHED"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4354916294,
+      "lat": 7.8356241,
+      "lon": 123.4392458,
+      "tags": {
+        "addr:street": "M. Roxas Street",
+        "amenity": "school",
+        "fixme": "name"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4356826695,
+      "lat": 7.8299367,
+      "lon": 123.4425431,
+      "tags": {
+        "addr:place": "Papaya",
+        "amenity": "clinic",
+        "name": "Health Center Lumbia District"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4356839892,
+      "lat": 7.8281221,
+      "lon": 123.4434546,
+      "tags": {
+        "addr:street": "V. Sagun Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Metro Pagadian Hospital Inc"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4356843001,
+      "lat": 7.8252983,
+      "lon": 123.4467617,
+      "tags": {
+        "addr:street": "Warlito Pulmones Street",
+        "amenity": "school",
+        "name": "South Hills International School of Technology"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4362488589,
+      "lat": 7.8171961,
+      "lon": 123.428314,
+      "tags": {
+        "addr:barangay": "Dumagoc",
+        "addr:city": "Pagadian City",
+        "addr:place": "Purok Sweetrose",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Dumagoc Barangay Hall",
+        "opening_hours": "24/7",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4367373191,
+      "lat": 7.8154583,
+      "lon": 123.44767,
+      "tags": {
+        "addr:barangay": "White Beach",
+        "addr:city": "Pagadian City",
+        "addr:place": "Purok Anduhaw",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "White Beach Barangay Hall",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375071789,
+      "lat": 7.8337607,
+      "lon": 123.425174,
+      "tags": {
+        "addr:barangay": "Banale",
+        "addr:city": "Pagadian City",
+        "addr:place": "Purok Madasigon",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Banale Barangay Hall",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375071790,
+      "lat": 7.8337479,
+      "lon": 123.4253806,
+      "tags": {
+        "addr:street": "Purok Madasigon",
+        "amenity": "clinic",
+        "name": "Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375072193,
+      "lat": 7.8372335,
+      "lon": 123.4272894,
+      "tags": {
+        "addr:street": "Pagadian Bypass Road",
+        "name": "RSP Convenience Store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375154693,
+      "lat": 7.8444793,
+      "lon": 123.4280857,
+      "tags": {
+        "addr:street": "Dao Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Triple-M Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375181092,
+      "lat": 7.84452,
+      "lon": 123.4281118,
+      "tags": {
+        "addr:street": "Dao Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "JOS-Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375185889,
+      "lat": 7.8442557,
+      "lon": 123.4280825,
+      "tags": {
+        "addr:street": "Dao Road",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Farmacia Hervi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4375194890,
+      "lat": 7.8444034,
+      "lon": 123.4303587,
+      "tags": {
+        "addr:street": "dao rd",
+        "amenity": "pharmacy",
+        "healthcare": "pharmacy",
+        "name": "Botika ng Zamboanga Del Sur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4392960489,
+      "lat": 7.8325817,
+      "lon": 123.4795717,
+      "tags": {
+        "addr:barangay": "Tawagan Sur",
+        "addr:city": "Pagadian City",
+        "addr:place": "Purok Gumamela",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Tawagan Sur Barangay Hall",
+        "opening_hours": "24/7",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4415798390,
+      "lat": 7.8241704,
+      "lon": 123.4379359,
+      "tags": {
+        "amenity": "atm",
+        "check_date": "2021-06-12",
+        "opening_hours": "24/7",
+        "operator": "BDO ATM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4465901790,
+      "lat": 7.8238965,
+      "lon": 123.4388979,
+      "tags": {
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "pharmacy",
+        "brand": "Mercury Drug",
+        "brand:wikidata": "Q6818610",
+        "brand:wikipedia": "en:Mercury Drug",
+        "drive_through": "no",
+        "fixme": "verify location",
+        "healthcare": "pharmacy",
+        "name": "Mercury Drug"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4465928089,
+      "lat": 7.8246113,
+      "lon": 123.438617,
+      "tags": {
+        "addr:postcode": "7016",
+        "amenity": "bank",
+        "name": "City Savings Bank",
+        "name:en": "City Savings Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4465928289,
+      "lat": 7.8239051,
+      "lon": 123.4390332,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "atm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4615118989,
+      "lat": 7.8238174,
+      "lon": 123.4382331,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "bank",
+        "brand": "UnionBank",
+        "brand:wikidata": "Q7885403",
+        "brand:wikipedia": "en:Union Bank of the Philippines",
+        "name": "UnionBank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621589490,
+      "lat": 7.82648,
+      "lon": 123.4431118,
+      "tags": {
+        "amenity": "bank",
+        "brand": "BDO Network Bank",
+        "brand:wikidata": "Q7093019",
+        "name": "BDO Network Bank",
+        "name:en": "One Network Bank Loan Department"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621589790,
+      "lat": 7.8256177,
+      "lon": 123.4375417,
+      "tags": {
+        "amenity": "bank",
+        "name": "Rural Bank of Dipolog",
+        "name:en": "Rural Bank of Dipolog"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621708892,
+      "lat": 7.8226256,
+      "lon": 123.4389878,
+      "tags": {
+        "amenity": "bank",
+        "brand": "EastWest Unibank",
+        "brand:wikidata": "Q5327595",
+        "brand:wikipedia": "en:EastWest Bank",
+        "name": "EastWest Unibank",
+        "name:en": "EastWest Unibank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621712495,
+      "lat": 7.8233289,
+      "lon": 123.4373498,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "bank",
+        "brand": "Security Bank",
+        "brand:wikidata": "Q7444945",
+        "brand:wikipedia": "en:Security Bank",
+        "name": "Security Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621712498,
+      "lat": 7.8241634,
+      "lon": 123.4399291,
+      "tags": {
+        "amenity": "bank",
+        "name": "Metrobank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621712794,
+      "lat": 7.8233607,
+      "lon": 123.4375242,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "bank",
+        "brand": "Metrobank",
+        "brand:wikidata": "Q1925799",
+        "brand:wikipedia": "en:Metrobank (Philippines)",
+        "name": "Metrobank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621712799,
+      "lat": 7.822541,
+      "lon": 123.4082378,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Public Market Agora 2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621712993,
+      "lat": 7.8235544,
+      "lon": 123.4366895,
+      "tags": {
+        "addr:street": "Benigno Aquino Street",
+        "amenity": "pharmacy",
+        "brand": "Generika",
+        "brand:wikidata": "Q62564876",
+        "healthcare": "pharmacy",
+        "name": "Generika",
+        "name:en": "Generika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621712994,
+      "lat": 7.8233084,
+      "lon": 123.4372308,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "bank",
+        "brand": "UCPB",
+        "brand:wikidata": "Q7887615",
+        "brand:wikipedia": "en:United Coconut Planters Bank",
+        "name": "UCPB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4621954490,
+      "lat": 7.8249967,
+      "lon": 123.4377943,
+      "tags": {
+        "amenity": "atm",
+        "check_date": "2026-03-30",
+        "operator": "BPI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4662094891,
+      "lat": 7.8283842,
+      "lon": 123.4434989,
+      "tags": {
+        "name": "Hopital Canteen",
+        "name:en": "Hopital Canteen",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4845055021,
+      "lat": 7.8286188,
+      "lon": 123.437212,
+      "tags": {
+        "amenity": "school",
+        "name": "Jack and Jill Pre School and Grade School"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5264813921,
+      "lat": 7.8239589,
+      "lon": 123.4414549,
+      "tags": {
+        "addr:postcode": "07016",
+        "addr:street": "J. P. Rizal Avenue",
+        "name": "Gaisano Capital Supermarket",
+        "name:en": "gaisano mall",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5264814121,
+      "lat": 7.8230884,
+      "lon": 123.4350052,
+      "tags": {
+        "addr:street": "F. S. Pajares Avenue",
+        "name": "atlas 24/7",
+        "name:en": "atlas 24/7",
+        "shop": "convenience",
+        "survey:date": "2019-09-17"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6076913962,
+      "lat": 7.8328461,
+      "lon": 123.4474207,
+      "tags": {
+        "amenity": "school",
+        "name": "Pagadian Capitol College"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6522730878,
+      "lat": 7.823551,
+      "lon": 123.4369341,
+      "tags": {
+        "name": "Stargazer",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6526144330,
+      "lat": 7.8225234,
+      "lon": 123.4282646,
+      "tags": {
+        "addr:barangay": "Balangasan",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Balangasan Barangay Hall",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6527632815,
+      "lat": 7.8245939,
+      "lon": 123.4387872,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "South Star Drug",
+        "brand:wikidata": "Q7568544",
+        "brand:wikipedia": "en:South Star Drug",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "South Star Drug"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6527650800,
+      "lat": 7.8245545,
+      "lon": 123.4409821,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Mercury Drug",
+        "brand:wikidata": "Q6818610",
+        "brand:wikipedia": "en:Mercury Drug",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mercury Drug"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6527650802,
+      "lat": 7.824041,
+      "lon": 123.4413697,
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "Rose Pharmacy",
+        "brand:wikidata": "Q62663208",
+        "dispensing": "yes",
+        "healthcare": "pharmacy",
+        "name": "Rose Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6981875187,
+      "lat": 7.8269767,
+      "lon": 123.4355066,
+      "tags": {
+        "amenity": "atm",
+        "operator": "Land Bank Of the Philippines"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6981875188,
+      "lat": 7.8269169,
+      "lon": 123.4355203,
+      "tags": {
+        "amenity": "atm",
+        "operator": "Philippine National Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6981875189,
+      "lat": 7.8280877,
+      "lon": 123.4308249,
+      "tags": {
+        "amenity": "atm",
+        "check_date": "2026-03-29",
+        "name": "Landbank",
+        "operator": "Land Bank of the Philippines"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7295545390,
+      "lat": 7.8279601,
+      "lon": 123.4345436,
+      "tags": {
+        "addr:postcode": "7016",
+        "addr:street": "Urro Street",
+        "amenity": "pharmacy",
+        "name": "Mercury Drug",
+        "opening_hours": "Mo-Su 07:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7334152210,
+      "lat": 7.8283625,
+      "lon": 123.4388425,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:street": "V. Cerilles Street",
+        "name": "EVS Store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7781198085,
+      "lat": 7.8255129,
+      "lon": 123.4375074,
+      "tags": {
+        "amenity": "bank",
+        "name": "EAST WEST BANK"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10290137509,
+      "lat": 7.8414036,
+      "lon": 123.4023219,
+      "tags": {
+        "addr:postcode": "7016",
+        "amenity": "bank",
+        "branch": "Balintawak Branch",
+        "brand": "Landbank",
+        "brand:wikidata": "Q6483872",
+        "name": "Landbank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10683368806,
+      "lat": 7.8288193,
+      "lon": 123.435461,
+      "tags": {
+        "amenity": "school",
+        "name": "Holy Child Academy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176021838,
+      "lat": 7.8217132,
+      "lon": 123.4380807,
+      "tags": {
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "bank",
+        "name": "BDO"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176039738,
+      "lat": 7.8208716,
+      "lon": 123.4385996,
+      "tags": {
+        "addr:street": "F. S. Pajares Avenue",
+        "name": "Aneoangsayo",
+        "name:en": "Aneoangsayo Korean Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176039739,
+      "lat": 7.8234797,
+      "lon": 123.4363768,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "bank",
+        "name": "PSBank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176039837,
+      "lat": 7.840431,
+      "lon": 123.4632282,
+      "tags": {
+        "addr:street": "Tukuran-Pagadian Highway",
+        "amenity": "pharmacy",
+        "name": "Mona Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176041037,
+      "lat": 7.8219801,
+      "lon": 123.4360142,
+      "tags": {
+        "addr:street": "Augusto T. Gavenia Street",
+        "amenity": "pharmacy",
+        "name": "Rose Pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11176042937,
+      "lat": 7.8240937,
+      "lon": 123.4308669,
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "bank",
+        "name": "Veterans Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13700402201,
+      "lat": 7.8270334,
+      "lon": 123.4380165,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "brand": "Robinsons Supermarket",
+        "brand:wikidata": "Q7353143",
+        "name": "Robinsons Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13700402203,
+      "lat": 7.8269686,
+      "lon": 123.4377006,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "bank",
+        "brand": "BPI",
+        "brand:wikidata": "Q2501256",
+        "name": "BPI",
+        "official_name": "Bank of the Philippine Islands"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13700402204,
+      "lat": 7.8268708,
+      "lon": 123.4377211,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "atm",
+        "brand": "BPI",
+        "brand:wikidata": "Q2501256",
+        "operator": "BPI",
+        "operator:wikidata": "Q2501256"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13700402213,
+      "lat": 7.8272291,
+      "lon": 123.4379756,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "atm",
+        "brand": "GoTyme Bank",
+        "brand:wikidata": "Q123179567",
+        "cash_in": "yes",
+        "name": "GoTyme Robinsons Cash-in Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876701,
+      "lat": 7.8270658,
+      "lon": 123.4381745,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "atm",
+        "brand": "GoTyme Bank",
+        "brand:wikidata": "Q123179567",
+        "name": "GoTyme Debit Card Kiosk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876702,
+      "lat": 7.8271313,
+      "lon": 123.4379961,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "atm",
+        "brand": "GoTyme Bank",
+        "brand:wikidata": "Q123179567",
+        "cash_in": "yes",
+        "description": "GoTyme Deposit Register - Robinsons Supermarket Pagadian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876704,
+      "lat": 7.8273925,
+      "lon": 123.4377768,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "atm",
+        "brand": "GoTyme Bank",
+        "brand:wikidata": "Q123179567",
+        "cash_in": "yes",
+        "description": "GoTyme Deposit Register - Handyman"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876705,
+      "lat": 7.8270665,
+      "lon": 123.4376802,
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:housename": "Robinsons",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "atm",
+        "operator": "Philippine National Bank",
+        "operator:short": "PNB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876707,
+      "lat": 7.826684,
+      "lon": 123.4390392,
+      "tags": {
+        "amenity": "atm",
+        "operator": "Philippine National Bank ATM - Columban College"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876708,
+      "lat": 7.8247537,
+      "lon": 123.4377607,
+      "tags": {
+        "amenity": "atm",
+        "operator": "Philippine National Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13830876709,
+      "lat": 7.8247414,
+      "lon": 123.4377616,
+      "tags": {
+        "amenity": "atm",
+        "operator": "Philippine National Bank"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13967583586,
+      "lat": 7.8203192,
+      "lon": 123.4390694,
+      "tags": {
+        "name": "E. M. Convenience Store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 131562481,
+      "center": {
+        "lat": 7.8232721,
+        "lon": 123.438507
+      },
+      "nodes": [
+        4465911689,
+        1447665116,
+        1447665125,
+        1447665168,
+        4465911689
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "J. P. Rizal Avenue",
+        "building": "retail",
+        "building:levels": "4",
+        "name": "C3 City Commercial Center",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 150859479,
+      "center": {
+        "lat": 7.8237374,
+        "lon": 123.4414777
+      },
+      "nodes": [
+        1637301025,
+        5808109883,
+        1637300998,
+        1637301003,
+        9973941987,
+        1637301011,
+        1637301023,
+        1637301000,
+        1637300999,
+        1637301007,
+        1637300997,
+        13823552159,
+        13823552158,
+        13823552157,
+        1637301005,
+        1637301001,
+        11252292496,
+        11252292495,
+        1637300996,
+        1637301025
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:street": "J. P. Rizal Avenue",
+        "name": "Gaisano Capital",
+        "shop": "mall",
+        "website": "https://www.gaisanocapital.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 158855520,
+      "center": {
+        "lat": 7.8206552,
+        "lon": 123.4374576
+      },
+      "nodes": [
+        9825111774,
+        13831987784,
+        13831987783,
+        1709933341,
+        13831987785,
+        13831987789,
+        1709933345,
+        13831987782,
+        13831987786,
+        13831987781,
+        1709933391,
+        11870766127,
+        13831987787,
+        9825111774
+      ],
+      "tags": {
+        "addr:street": "Warlito Pulmones Street",
+        "alt_name": "Pagadian Agora",
+        "amenity": "marketplace",
+        "name": "Agora Public Market / Pagadian City Market",
+        "name:ceb": "Merkado sa Pagadian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237823359,
+      "center": {
+        "lat": 7.8223373,
+        "lon": 123.43785
+      },
+      "nodes": [
+        2456874923,
+        2456874924,
+        2456874925,
+        2456874926,
+        2456874927,
+        2456874928,
+        2456874929,
+        2456874930,
+        7693861386,
+        2456874931,
+        2456874932,
+        2456874933,
+        2456874934,
+        2456874935,
+        2456874936,
+        2456874937,
+        2456874938,
+        7693861385,
+        2456874939,
+        2456874940,
+        2456874923
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "People's Plaza",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237823863,
+      "center": {
+        "lat": 7.8228011,
+        "lon": 123.4384214
+      },
+      "nodes": [
+        2456881356,
+        2456881357,
+        2456881358,
+        2456881359,
+        2456881360,
+        2456881361,
+        2456881356
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Uni City",
+        "shop": "mall",
+        "survey:date": "2019-09-17"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237824945,
+      "center": {
+        "lat": 7.8248723,
+        "lon": 123.4392276
+      },
+      "nodes": [
+        2456893047,
+        2456893049,
+        2456893051,
+        2456893053,
+        6711434891,
+        2456893058,
+        2456893047
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Mendero General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237824946,
+      "center": {
+        "lat": 7.8251111,
+        "lon": 123.4391719
+      },
+      "nodes": [
+        2456893060,
+        2456893062,
+        2456893064,
+        2456893066,
+        2456893068,
+        2456893070,
+        2456893060
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Mendero General Hospital- Blg.2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237828375,
+      "center": {
+        "lat": 7.8335665,
+        "lon": 123.4412698
+      },
+      "nodes": [
+        2456921435,
+        7231731315,
+        2456921437,
+        2456921438,
+        7231707983,
+        7231707982,
+        2456921441,
+        2456921435
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:place": "Santa Maria",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "contact:website": "http://www.zsnhs.byethost32.com/",
+        "isced:level": "2;3",
+        "name": "Zamboanga del Sur National High School",
+        "old_name": "Zamboanga del Sur Provincial High School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "3874",
+        "population:pupils:date": "2015",
+        "ref": "303910",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237828378,
+      "center": {
+        "lat": 7.8427099,
+        "lon": 123.4389131
+      },
+      "nodes": [
+        2456921443,
+        5760175991,
+        2456921445,
+        2456921446,
+        2456921447,
+        2456921448,
+        2456921449,
+        2456921450,
+        2456921451,
+        2456921452,
+        2456921453,
+        2456921454,
+        4621589689,
+        2456921443
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Pagadian Integrated Bus Terminal",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 237828924,
+      "center": {
+        "lat": 7.8434514,
+        "lon": 123.4302721
+      },
+      "nodes": [
+        2456924808,
+        2456924809,
+        13140394429,
+        2456924813,
+        2456924816,
+        2456924808
+      ],
+      "tags": {
+        "addr:quarter": "Dao",
+        "addr:street": "Dao Road",
+        "amenity": "hospital",
+        "beds": "100",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Zamboanga del Sur Medical Center",
+        "ref": "DOH000000000002502"
+      }
+    },
+    {
+      "type": "way",
+      "id": 246326291,
+      "center": {
+        "lat": 7.8270416,
+        "lon": 123.4353586
+      },
+      "nodes": [
+        1447665139,
+        2533760249,
+        9294511145,
+        2533760263,
+        2533760250,
+        2533760251,
+        9294511147,
+        9294511149,
+        2533760254,
+        2533760256,
+        9294511151,
+        9294511148,
+        1447665139
+      ],
+      "tags": {
+        "addr:barangay": "Gatas",
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Benigno Aquino Street",
+        "admin_level": "6",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Pagadian City Hall",
+        "townhall:type": "city"
+      }
+    },
+    {
+      "type": "way",
+      "id": 246874427,
+      "center": {
+        "lat": 7.8241881,
+        "lon": 123.4379842
+      },
+      "nodes": [
+        2538487591,
+        2538487594,
+        2538487597,
+        2538487599,
+        2538487591
+      ],
+      "tags": {
+        "addr:postcode": "7016",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "bank",
+        "building": "yes",
+        "name": "BDO"
+      }
+    },
+    {
+      "type": "way",
+      "id": 583074154,
+      "center": {
+        "lat": 7.8247694,
+        "lon": 123.4378539
+      },
+      "nodes": [
+        5574948812,
+        5574948813,
+        5574948814,
+        5574948815,
+        5574948812
+      ],
+      "tags": {
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "PNB",
+        "brand:wikidata": "Q1657971",
+        "brand:wikipedia": "en:Philippine National Bank",
+        "building": "yes",
+        "name": "PNB",
+        "official_name": "Philippine National Bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584338566,
+      "center": {
+        "lat": 7.8502942,
+        "lon": 123.4577242
+      },
+      "nodes": [
+        5585691428,
+        5585691426,
+        5585691427,
+        4237218792,
+        5585691428
+      ],
+      "tags": {
+        "addr:barangay": "Lenienza",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Lenienza Barangay Hall",
+        "opening_hours": "24/7",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613949983,
+      "center": {
+        "lat": 7.8344258,
+        "lon": 123.4256324
+      },
+      "nodes": [
+        4375054189,
+        5808109731,
+        5808109730,
+        5808109729,
+        4375054189
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Madasigon",
+        "addr:place": "Mauswagon",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "2;3",
+        "name": "Pagadian City National Comprehensive High School",
+        "operator": "West District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "744",
+        "population:pupils:date": "2015",
+        "ref": "303906",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613949986,
+      "center": {
+        "lat": 7.8299826,
+        "lon": 123.4415907
+      },
+      "nodes": [
+        4511604092,
+        5808109742,
+        5808109741,
+        5808109740,
+        4511604092
+      ],
+      "tags": {
+        "amenity": "school",
+        "name": "Pagadian City Golden School"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613949987,
+      "center": {
+        "lat": 7.8298009,
+        "lon": 123.4412288
+      },
+      "nodes": [
+        4511605494,
+        5808109745,
+        10030508961,
+        13970088528,
+        13970088527,
+        5808109744,
+        5808109743,
+        4511605494
+      ],
+      "tags": {
+        "addr:street": "Urro Street",
+        "amenity": "school",
+        "isced:level": "0-3",
+        "name": "Pagadian Montessori Center",
+        "operator:type": "private",
+        "ref": "404919"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613949989,
+      "center": {
+        "lat": 7.8236869,
+        "lon": 123.4198814
+      },
+      "nodes": [
+        4354916293,
+        5808109856,
+        5808109855,
+        5808109854,
+        4354916293
+      ],
+      "tags": {
+        "addr:barangay": "Upper Bagong Silang",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Bagong Silang Elementary School",
+        "operator": "West District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "416",
+        "population:pupils:date": "2015",
+        "ref": "126081",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613949991,
+      "center": {
+        "lat": 7.8248537,
+        "lon": 123.4516958
+      },
+      "nodes": [
+        4356826699,
+        5808109863,
+        5808109862,
+        12815919696,
+        5808109861,
+        5808109860,
+        5137539636,
+        4356826699
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Warlito Pulmones Street",
+        "amenity": "school",
+        "education_program": "specialized_education",
+        "isced:level": "2;3",
+        "name": "Zamboanga del Sur School of Arts and Trades",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "765",
+        "population:pupils:date": "2015",
+        "ref": "303913",
+        "specialized_education": "trade",
+        "start_date": "1982"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613949998,
+      "center": {
+        "lat": 7.8241426,
+        "lon": 123.4482589
+      },
+      "nodes": [
+        4356875191,
+        5808109873,
+        5808109872,
+        5808109871,
+        4356875191
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:city_block": "Pagang",
+        "addr:place": "Kawit",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "contact:email": "126050@deped.gov.ph",
+        "isced:level": "0;1",
+        "name": "Kawit Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "911",
+        "population:pupils:date": "2015",
+        "ref": "126050",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 619731310,
+      "center": {
+        "lat": 7.843086,
+        "lon": 123.4615337
+      },
+      "nodes": [
+        5856107439,
+        5856107440,
+        5856107441,
+        5856107442,
+        5856107439
+      ],
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694643371,
+      "center": {
+        "lat": 7.8262075,
+        "lon": 123.431933
+      },
+      "nodes": [
+        6522642958,
+        6522642959,
+        6522642960,
+        6522642961,
+        6522642962,
+        6522642963,
+        6522642958
+      ],
+      "tags": {
+        "amenity": "school",
+        "name": "Pagadian Junior College"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694643914,
+      "center": {
+        "lat": 7.8236659,
+        "lon": 123.4318094
+      },
+      "nodes": [
+        6522675786,
+        6522675787,
+        6522675788,
+        6522675789,
+        6522675786
+      ],
+      "tags": {
+        "amenity": "bank",
+        "building": "yes",
+        "name": "Development Bank of the Philippines"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694643960,
+      "center": {
+        "lat": 7.8235496,
+        "lon": 123.4327505
+      },
+      "nodes": [
+        6522652117,
+        6522652118,
+        6522652119,
+        6522652120,
+        6522652117
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "PNB",
+        "brand:wikidata": "Q1657971",
+        "brand:wikipedia": "en:Philippine National Bank",
+        "building": "yes",
+        "name": "PNB",
+        "official_name": "Philippine National Bank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694644082,
+      "center": {
+        "lat": 7.8233168,
+        "lon": 123.4335291
+      },
+      "nodes": [
+        6522676326,
+        6522676327,
+        6522676328,
+        6522627545,
+        6522627544,
+        6522627546,
+        6522627547,
+        6522676329,
+        6522676326
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Borbon General Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694644433,
+      "center": {
+        "lat": 7.8237028,
+        "lon": 123.4344435
+      },
+      "nodes": [
+        6522627548,
+        6522627549,
+        6522627550,
+        6522627551,
+        6522627552,
+        6522627553,
+        6522627548
+      ],
+      "tags": {
+        "amenity": "school",
+        "check_date": "2026-03-31",
+        "name": "Southern Mindanao Colleges"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694939010,
+      "center": {
+        "lat": 7.825385,
+        "lon": 123.41897
+      },
+      "nodes": [
+        6527650805,
+        6527650806,
+        6527650807,
+        6527650808,
+        6527650805
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Jamelarin Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694955408,
+      "center": {
+        "lat": 7.8289438,
+        "lon": 123.4321602
+      },
+      "nodes": [
+        6527887486,
+        6527887487,
+        6527887488,
+        6527887489,
+        6527887490,
+        6527887491,
+        6527887492,
+        6527887493,
+        6527887494,
+        6527887495,
+        6527887496,
+        6527887497,
+        10030556821,
+        6527887498,
+        6527887486
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Urro Street",
+        "amenity": "school",
+        "check_date": "2026-03-31",
+        "denomination": "catholic",
+        "isced:level": "0-3",
+        "name": "Saint Columban College",
+        "operator:type": "private",
+        "ref": "404921",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 694955663,
+      "center": {
+        "lat": 7.826585,
+        "lon": 123.4306633
+      },
+      "nodes": [
+        6527888708,
+        6527927772,
+        6527927775,
+        6527927778,
+        6527888709,
+        6527888711,
+        6527888714,
+        6527888715,
+        6527888716,
+        6527888717,
+        6527888719,
+        6527888720,
+        6527888721,
+        6527888722,
+        6527888708
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Consolacion Street",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Balangasan Central Elementary School",
+        "operator": "West District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "2322",
+        "population:pupils:date": "2015",
+        "ref": "126082",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 713848835,
+      "center": {
+        "lat": 7.824042,
+        "lon": 123.4389844
+      },
+      "nodes": [
+        6711434892,
+        6711434893,
+        9971468579,
+        6711434894,
+        6711434895,
+        6711434892
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "RCBC",
+        "brand:wikidata": "Q7339070",
+        "brand:wikipedia": "en:Rizal Commercial Banking Corporation",
+        "building": "yes",
+        "name": "RCBC",
+        "official_name": "Rizal Commercial Banking Corporation"
+      }
+    },
+    {
+      "type": "way",
+      "id": 713849125,
+      "center": {
+        "lat": 7.8219318,
+        "lon": 123.4384639
+      },
+      "nodes": [
+        6711419242,
+        6711419243,
+        6711419244,
+        6711419245,
+        6711419242
+      ],
+      "tags": {
+        "addr:postcode": "7016",
+        "addr:street": "F. S. Pajares Avenue",
+        "amenity": "pharmacy",
+        "brand": "Mercury Drug",
+        "brand:wikidata": "Q6818610",
+        "brand:wikipedia": "en:Mercury Drug",
+        "building": "yes",
+        "healthcare": "pharmacy",
+        "name": "Mercury Drug",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "chemist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 720925484,
+      "center": {
+        "lat": 7.8288398,
+        "lon": 123.4405039
+      },
+      "nodes": [
+        6764025262,
+        6764025263,
+        6764025264,
+        6764025265,
+        13707186337,
+        6764025266,
+        6764025262
+      ],
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "F. Roxas Street",
+        "amenity": "school",
+        "check_date": "2026-03-30",
+        "isced:level": "0;1",
+        "name": "Happy Hearts Montessori",
+        "ref": "458503"
+      }
+    },
+    {
+      "type": "way",
+      "id": 771540948,
+      "center": {
+        "lat": 7.820391,
+        "lon": 123.433381
+      },
+      "nodes": [
+        7202547081,
+        7202547082,
+        7202547083,
+        9973982676,
+        7693472690,
+        9973982725,
+        7202547084,
+        7202576385,
+        7693472689,
+        7202547081
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "B. Salera Street",
+        "amenity": "school",
+        "contact:email": "126079@deped.gov.ph",
+        "isced:level": "0;1",
+        "name": "Santa Lucia Central Elementary School",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "1376",
+        "population:pupils:date": "2015",
+        "ref": "126079",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 773668997,
+      "center": {
+        "lat": 7.8556273,
+        "lon": 123.504326
+      },
+      "nodes": [
+        7221566901,
+        7221566902,
+        7221566903,
+        8312514192,
+        8312514191,
+        7221566904,
+        7221566901
+      ],
+      "tags": {
+        "addr:barangay": "Tapodoc",
+        "addr:city": "Labangan",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Tapodoc Elementary School",
+        "operator": "Labangan I District of Zamboanga del Sur Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "808",
+        "population:pupils:date": "2015",
+        "ref": "125125",
+        "start_date": "1954"
+      }
+    },
+    {
+      "type": "way",
+      "id": 775139981,
+      "center": {
+        "lat": 7.8360808,
+        "lon": 123.4387725
+      },
+      "nodes": [
+        7231731324,
+        7231731323,
+        7231731322,
+        7231707968,
+        7231707967,
+        7231731321,
+        7231731324
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Roxas Street",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Ben Sagun Elementary School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "337",
+        "population:pupils:date": "2015",
+        "ref": "126059",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 775139985,
+      "center": {
+        "lat": 7.8359052,
+        "lon": 123.4389834
+      },
+      "nodes": [
+        7231731339,
+        4354914292,
+        7231731338,
+        7231731337,
+        7231731339
+      ],
+      "tags": {
+        "addr:barangay": "Santa Maria",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "M. Roxas Street",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Santa Maria Barangay Hall",
+        "opening_hours": "24/7",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 790454803,
+      "center": {
+        "lat": 7.8201733,
+        "lon": 123.426715
+      },
+      "nodes": [
+        7389932953,
+        7389932952,
+        7389932951,
+        7389932950,
+        7389932953
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Ballesteros Village",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Ballesteros, Sr. Elementary School",
+        "old_name": "Ballesteros Elementary School",
+        "operator": "West District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "552",
+        "population:pupils:date": "2015",
+        "ref": "126084",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 795138259,
+      "center": {
+        "lat": 7.8489522,
+        "lon": 123.4564393
+      },
+      "nodes": [
+        7436910735,
+        4367358889,
+        7436910734,
+        7436910733,
+        7436910735
+      ],
+      "tags": {
+        "addr:barangay": "Lenienza",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Lenienza Elementary School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "729",
+        "population:pupils:date": "2015",
+        "ref": "126064",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824011526,
+      "center": {
+        "lat": 7.8296094,
+        "lon": 123.4451237
+      },
+      "nodes": [
+        7693427225,
+        7693427224,
+        7693427223,
+        12033454552,
+        12033454551,
+        7693427222,
+        7693427221,
+        7693427220,
+        7693427225
+      ],
+      "tags": {
+        "addr:barangay": "Lumbia",
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "school",
+        "contact:email": "126061@deped.gov.ph",
+        "isced:level": "0;1",
+        "name": "Camp Abelon Elementary School",
+        "old_name": "P.C. Elementary School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "953",
+        "population:pupils:date": "2015",
+        "ref": "126061",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824012643,
+      "center": {
+        "lat": 7.8272258,
+        "lon": 123.4386455
+      },
+      "nodes": [
+        7693437891,
+        7693437888,
+        7693437889,
+        7693437890,
+        7693437891
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "V. Cerilles Street",
+        "addr:street:corner": "V. Sagun Street",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Pablo Litigio Elementary School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "523",
+        "population:pupils:date": "2015",
+        "ref": "126066",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824016277,
+      "center": {
+        "lat": 7.8202766,
+        "lon": 123.4403601
+      },
+      "nodes": [
+        7693453873,
+        7693453870,
+        7693453871,
+        7693453872,
+        7693453873
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:city_block": "Sunshine",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Marcelo Dablo Avenue",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Santiago Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "706",
+        "population:pupils:date": "2015",
+        "ref": "126053",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824017800,
+      "center": {
+        "lat": 7.815798,
+        "lon": 123.4312999
+      },
+      "nodes": [
+        7693472341,
+        7693472340,
+        7693472339,
+        7693472338,
+        12033428724,
+        7693472337,
+        7693472336,
+        12033447265,
+        7693472335,
+        7693472334,
+        7693472341
+      ],
+      "tags": {
+        "addr:barangay": "Dumagoc",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Hilltop",
+        "addr:place": "Purok Hayag",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Paaralang Elementarya ng Dumagoc",
+        "name:en": "Dumagoc Elementary School",
+        "name:tl": "Paaralang Elementarya ng Dumagoc",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "851",
+        "population:pupils:date": "2015",
+        "ref": "126071",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824042436,
+      "center": {
+        "lat": 7.8363906,
+        "lon": 123.4459669
+      },
+      "nodes": [
+        7693772512,
+        7693772511,
+        7693772510,
+        7693772509,
+        12033457381,
+        7693772508,
+        7693772512
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:place": "Tuburan",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Tuburan Central School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "904",
+        "population:pupils:date": "2015",
+        "ref": "126067",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824048467,
+      "center": {
+        "lat": 7.8250136,
+        "lon": 123.4378322
+      },
+      "nodes": [
+        7693861390,
+        7693861387,
+        7693861388,
+        7693861389,
+        7693861390
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "BPI",
+        "brand:wikidata": "Q2501256",
+        "brand:wikipedia": "en:Bank of the Philippine Islands",
+        "building": "yes",
+        "name": "BPI",
+        "official_name": "Bank of the Philippine Islands"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824056464,
+      "center": {
+        "lat": 7.8300729,
+        "lon": 123.4281299
+      },
+      "nodes": [
+        7693940112,
+        13716210491,
+        7693940111,
+        7693940110,
+        13716210469,
+        13716210490,
+        13716210470,
+        7693940109,
+        13716210492,
+        13716210493,
+        7693940112
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Bonifacio",
+        "addr:place": "Santo Niño",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Santo Niño Elementary School",
+        "operator": "West District",
+        "operator:type": "government",
+        "operator:wikidata": "Q130491274",
+        "population:pupils": "877",
+        "population:pupils:date": "2015",
+        "ref": "126095",
+        "start_date": "1987"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824058236,
+      "center": {
+        "lat": 7.8139442,
+        "lon": 123.4507258
+      },
+      "nodes": [
+        7693954826,
+        7693954825,
+        7693954824,
+        7693954823,
+        7693954822,
+        7693954821,
+        7693954826
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:place": "Lapu-lapu",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "White Beach Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "306",
+        "population:pupils:date": "2015",
+        "ref": "126057",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893102280,
+      "center": {
+        "lat": 7.8055019,
+        "lon": 123.4258899
+      },
+      "nodes": [
+        8300617521,
+        8300617520,
+        8300617519,
+        8300617518,
+        8300617521
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Bomba Elementary School",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "581",
+        "population:pupils:date": "2015",
+        "ref": "126069",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893765217,
+      "center": {
+        "lat": 7.812793,
+        "lon": 123.4142203
+      },
+      "nodes": [
+        8306948902,
+        8306948901,
+        8306948900,
+        8306948899,
+        8306948898,
+        8306948897,
+        8306948896,
+        8306948895,
+        8306948902
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:place": "Santan",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "2",
+        "name": "Napolan National High School",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "1019",
+        "population:pupils:date": "2015",
+        "ref": "303905",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893765223,
+      "center": {
+        "lat": 7.8120377,
+        "lon": 123.4136859
+      },
+      "nodes": [
+        8306957630,
+        8306957629,
+        8306957628,
+        8306957627,
+        8306957630
+      ],
+      "tags": {
+        "addr:barangay": "Napolan",
+        "addr:city": "Pagadian City",
+        "addr:housenumber": "1",
+        "addr:neighbourhood": "Azucena",
+        "addr:place": "Santan",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Napolan Elementary School",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "1002",
+        "population:pupils:date": "2015",
+        "ref": "126075",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893866122,
+      "center": {
+        "lat": 7.8239562,
+        "lon": 123.4121
+      },
+      "nodes": [
+        8307874933,
+        8307874932,
+        8307874931,
+        8307874930,
+        8307874929,
+        8307874928,
+        8307874933
+      ],
+      "tags": {
+        "addr:barangay": "Nazareth",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Malinawon",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Nazareth Elementary School",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "520",
+        "population:pupils:date": "2015",
+        "ref": "126076",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893866657,
+      "center": {
+        "lat": 7.8255728,
+        "lon": 123.4670176
+      },
+      "nodes": [
+        8307828290,
+        10872884580,
+        8307828289,
+        10872884581,
+        8307828288,
+        8307828287,
+        8307828290
+      ],
+      "tags": {
+        "addr:barangay": "Muricay",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Muricay Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "545",
+        "population:pupils:date": "2015",
+        "ref": "126051",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893944650,
+      "center": {
+        "lat": 7.8462425,
+        "lon": 123.4944002
+      },
+      "nodes": [
+        8308683560,
+        8308683559,
+        8308683558,
+        8308683557,
+        8308683560
+      ],
+      "tags": {
+        "addr:city": "Labangan",
+        "addr:place": "Lower Sang-an",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Sang-an Elementary School",
+        "operator": "Labangan I District of Zamboanga del Sur Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "178",
+        "population:pupils:date": "2015",
+        "ref": "125124",
+        "start_date": "1959"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893945057,
+      "center": {
+        "lat": 7.8446204,
+        "lon": 123.4830927
+      },
+      "nodes": [
+        8308697092,
+        8308697091,
+        8308697090,
+        8308697089,
+        8308697088,
+        8308697092
+      ],
+      "tags": {
+        "addr:city": "Labangan",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Bulanit Elementary School",
+        "operator": "Labangan II District of Zamboanga del Sur Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "438",
+        "population:pupils:date": "2015",
+        "ref": "125130",
+        "start_date": "1972"
+      }
+    },
+    {
+      "type": "way",
+      "id": 893945365,
+      "center": {
+        "lat": 7.8424257,
+        "lon": 123.474047
+      },
+      "nodes": [
+        8308699485,
+        8308699484,
+        8308699483,
+        8308699482,
+        8308699481,
+        8308699480,
+        8308699485
+      ],
+      "tags": {
+        "addr:barangay": "Tawagan Sur",
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Lanao-Pagadian-Zamboanga City Road",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Tawagan Sur Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "618",
+        "population:pupils:date": "2015",
+        "ref": "126054",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 894331601,
+      "center": {
+        "lat": 7.8560514,
+        "lon": 123.503681
+      },
+      "nodes": [
+        8312512298,
+        8312512297,
+        8312512296,
+        8312512295,
+        8312512294,
+        8312512293,
+        8312512292,
+        8312512291,
+        8312512290,
+        8312512298
+      ],
+      "tags": {
+        "addr:city": "Labangan",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "2;3",
+        "name": "New Labangan National High School",
+        "operator": "Labangan I District of Zamboanga del Sur Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "564",
+        "population:pupils:date": "2015",
+        "ref": "303799",
+        "start_date": "1966"
+      }
+    },
+    {
+      "type": "way",
+      "id": 894464662,
+      "center": {
+        "lat": 7.8428481,
+        "lon": 123.4714922
+      },
+      "nodes": [
+        8313783246,
+        8313783245,
+        8313783244,
+        8313783243,
+        8313783246
+      ],
+      "tags": {
+        "addr:barangay": "Tawagan Sur",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "San Francisco",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Lanao-Pagadian-Zamboanga City Road",
+        "amenity": "school",
+        "isced:level": "2;3",
+        "name": "Tawagan Sur National High School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "720",
+        "population:pupils:date": "2015",
+        "ref": "303909",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 896653544,
+      "center": {
+        "lat": 7.8472317,
+        "lon": 123.4618081
+      },
+      "nodes": [
+        8334978787,
+        8334978786,
+        8334978785,
+        8334978784,
+        8334978787
+      ],
+      "tags": {
+        "addr:barangay": "Tiguma",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Zone 8",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "education_program": "specialized_education",
+        "isced:level": "2;3",
+        "name": "Co Tek Chun National Trade School",
+        "old_name": "Co Tek Chun Trade School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "403",
+        "population:pupils:date": "2015",
+        "ref": "314705",
+        "specialized_education": "trade",
+        "start_date": "2008"
+      }
+    },
+    {
+      "type": "way",
+      "id": 896653556,
+      "center": {
+        "lat": 7.841483,
+        "lon": 123.4567903
+      },
+      "nodes": [
+        8334981035,
+        8334981034,
+        8334981033,
+        8334981032,
+        8334981035
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Pagadian Bypass Road",
+        "addr:village": "Tiguma",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Tiguma Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "491",
+        "population:pupils:date": "2015",
+        "ref": "126055",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 896952725,
+      "center": {
+        "lat": 7.8369299,
+        "lon": 123.4105101
+      },
+      "nodes": [
+        8337404505,
+        8337404504,
+        8337404503,
+        8337404502,
+        8337404505
+      ],
+      "tags": {
+        "addr:barangay": "Balintawak",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Upo 2",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Balintawak Elementary School",
+        "operator": "West District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "338",
+        "population:pupils:date": "2015",
+        "ref": "126083",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 897666642,
+      "center": {
+        "lat": 7.8478109,
+        "lon": 123.4289282
+      },
+      "nodes": [
+        8342824596,
+        8342824595,
+        8342824594,
+        8342824593,
+        8342824592,
+        8342824596
+      ],
+      "tags": {
+        "addr:barangay": "Dao",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Nagmahal",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Dao Road",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Dao Elementary School",
+        "operator": "Central District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "392",
+        "population:pupils:date": "2015",
+        "ref": "126040",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 897667456,
+      "center": {
+        "lat": 7.8446928,
+        "lon": 123.4167503
+      },
+      "nodes": [
+        8342866419,
+        8342866418,
+        8342866417,
+        8342862516,
+        8342866419
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "Malungay",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Purok Sayote",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Banale Elementary School",
+        "operator": "West District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "240",
+        "population:pupils:date": "2015",
+        "ref": "126086",
+        "start_date": "2000"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067918177,
+      "center": {
+        "lat": 7.8282425,
+        "lon": 123.4307924
+      },
+      "nodes": [
+        9804085373,
+        9804085382,
+        9804085381,
+        9804085380,
+        9804085379,
+        9804085378,
+        9804085377,
+        9804085376,
+        3374391866,
+        9804085375,
+        9804085374,
+        9804085373
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "4",
+        "amenity": "townhall",
+        "building": "public",
+        "name": "Provincial Capitol of Zamboanga del Sur",
+        "nohousenumber": "yes",
+        "townhall:type": "province"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1070515704,
+      "center": {
+        "lat": 7.8201753,
+        "lon": 123.4398563
+      },
+      "nodes": [
+        9824300866,
+        9824300865,
+        9824300864,
+        9824300863,
+        9824300866
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:quarter": "Santiago",
+        "addr:street": "Marcelo Dablo Avenue",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Bahay Pamahalaan ng Barangay Santiago",
+        "name:en": "Santiago Barangay Hall",
+        "name:fil": "Bahay Pamahalaan ng Barangay Santiago",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1092568238,
+      "center": {
+        "lat": 7.8176631,
+        "lon": 123.4176333
+      },
+      "nodes": [
+        10006036153,
+        10006036154,
+        10006036155,
+        10006036156,
+        10006036153
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "public",
+        "fixme": "add barangay name",
+        "name": "Barangay Hall",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1095267555,
+      "center": {
+        "lat": 7.8230701,
+        "lon": 123.4431359
+      },
+      "nodes": [
+        10030516044,
+        10030516045,
+        10030516046,
+        12816016637,
+        10030516044
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:place": "San Pedro",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Bahay Pamahalaan ng Barangay San Pedro",
+        "name:en": "San Pedro Barangay Hall",
+        "name:fil": "Bahay Pamahalaan ng Barangay San Pedro",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1095274158,
+      "center": {
+        "lat": 7.8107203,
+        "lon": 123.4139501
+      },
+      "nodes": [
+        10030560569,
+        10030560570,
+        10030560571,
+        10030560572,
+        10030560569
+      ],
+      "tags": {
+        "addr:place": "Napolan",
+        "addr:postcode": "7016",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Bahay Pamahalaan ng Barangay Napolan",
+        "name:en": "Napolan Barangay Hall",
+        "name:tl": "Bahay Pamahalaan ng Barangay Napolan",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1296581192,
+      "center": {
+        "lat": 7.8398804,
+        "lon": 123.4282328
+      },
+      "nodes": [
+        12014523028,
+        12014523029,
+        12014523030,
+        12014523031,
+        12014523028
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:place": "Lasaran",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Bahay Pamahalaan ng Barangay Dao",
+        "name:en": "Dao Barangay Hall",
+        "name:fil": "Bahay Pamahalaan ng Barangay Dao",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1299040112,
+      "center": {
+        "lat": 7.8194356,
+        "lon": 123.4359884
+      },
+      "nodes": [
+        12033400369,
+        12033400370,
+        12033400371,
+        12033400372,
+        12033400373,
+        12033400369
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Pagadian Integrated Bus and Jeepney Terminal 1 (Zamboanga Del Sur)",
+        "network": "Peso Wifi",
+        "operator": "City Government of Pagadian",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1302927820,
+      "center": {
+        "lat": 7.8566656,
+        "lon": 123.4198167
+      },
+      "nodes": [
+        12066862678,
+        12066862677,
+        12066862676,
+        12066862675,
+        12066862674,
+        12066862673,
+        12066862678
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "name": "Rotary Inner Wheel Village Elementary School",
+        "operator:type": "government",
+        "ref": "198502"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384222985,
+      "center": {
+        "lat": 7.8240192,
+        "lon": 123.4491604
+      },
+      "nodes": [
+        4356826700,
+        12816011598,
+        12816011597,
+        4356839894,
+        4356826700
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:place": "Pagang",
+        "admin_level": "10",
+        "amenity": "townhall",
+        "building": "civic",
+        "name": "Bahay Pamahalaan ng Barangay Kawit",
+        "name:en": "Kawit Barangay Hall",
+        "name:fil": "Bahay Pamahalaan ng Barangay Kawit",
+        "townhall:type": "barangay"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384234851,
+      "center": {
+        "lat": 7.8309261,
+        "lon": 123.4467102
+      },
+      "nodes": [
+        6802417012,
+        12815978962,
+        12815978961,
+        12815978960,
+        12815978959,
+        6802417012
+      ],
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "school",
+        "name": "Pagadian City Science High School",
+        "previously": "n6802417012",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1384234855,
+      "center": {
+        "lat": 7.8305272,
+        "lon": 123.4462125
+      },
+      "nodes": [
+        12815978971,
+        12815978970,
+        4363701289,
+        12815978969,
+        12815978971
+      ],
+      "tags": {
+        "addr:street": "J. P. Rizal Avenue",
+        "amenity": "hospital",
+        "beds": "30",
+        "name": "Pagadian Doctors Hospital",
+        "name:en": "Pagadian Doctors Hospital",
+        "previously": "n4363701289",
+        "ref": "DOH000000000007708"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450795094,
+      "center": {
+        "lat": 7.8275917,
+        "lon": 123.4376859
+      },
+      "nodes": [
+        13305746043,
+        13867383566,
+        7693437888,
+        7693437891,
+        13305746041,
+        13867383567,
+        13305746042,
+        13305746043
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "F. S. Pajares Avenue",
+        "brand": "Robinsons Malls",
+        "brand:wikidata": "Q7353125",
+        "check_date:opening_hours": "2026-05-23",
+        "contact:facebook": "RobinsonsPagadian",
+        "contact:website": "https://robinsonsmalls.com/node/913",
+        "landuse": "retail",
+        "name": "Robinsons Pagadian",
+        "nohousenumber": "yes",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "operator": "Robinsons Malls",
+        "operator:type": "private",
+        "operator:wikidata": "Q7353125",
+        "shop": "mall",
+        "start_date": "2025-04-03"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1495355895,
+      "center": {
+        "lat": 7.8287353,
+        "lon": 123.4358836
+      },
+      "nodes": [
+        13700330765,
+        13700330751,
+        13700330766,
+        13700330767,
+        13700330768,
+        13700330769,
+        13700330770,
+        13700330771,
+        13700330772,
+        13700330773,
+        13700330765
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga Del Sur",
+        "addr:street": "Benigno Aquino Street",
+        "amenity": "school",
+        "education": "school",
+        "name": "Holy Child Academy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1495377598,
+      "center": {
+        "lat": 7.8364262,
+        "lon": 123.4318348
+      },
+      "nodes": [
+        13700489781,
+        13700489782,
+        13700489783,
+        13700489784,
+        13700489785,
+        13700489786,
+        13700489781
+      ],
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Pagadian Chambers School"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1496345798,
+      "center": {
+        "lat": 7.8264875,
+        "lon": 123.4389781
+      },
+      "nodes": [
+        13707186371,
+        13707186372,
+        13707186373,
+        13707186374,
+        13707186371
+      ],
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "education": "school"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1512884226,
+      "center": {
+        "lat": 7.8231762,
+        "lon": 123.4403947
+      },
+      "nodes": [
+        13823552151,
+        13823552152,
+        13823552153,
+        13823552154,
+        13823552151
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "bank",
+        "brand": "Landbank",
+        "brand:wikidata": "Q6483872",
+        "building": "yes",
+        "name": "Landbank"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513893345,
+      "center": {
+        "lat": 7.824863,
+        "lon": 123.4373578
+      },
+      "nodes": [
+        13830095385,
+        13830095386,
+        13830095387,
+        13830095378,
+        13830095385
+      ],
+      "tags": {
+        "amenity": "bank",
+        "brand": "Bank of Commerce",
+        "brand:wikidata": "Q4856092",
+        "building": "yes",
+        "name": "Bank of Commerce"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513894097,
+      "center": {
+        "lat": 7.8233832,
+        "lon": 123.4411348
+      },
+      "nodes": [
+        13830148588,
+        13830148589,
+        13830148590,
+        13830148591,
+        13830148588
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Gaisano Capital Extension",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513894102,
+      "center": {
+        "lat": 7.8240027,
+        "lon": 123.4420413
+      },
+      "nodes": [
+        13830149410,
+        13830149411,
+        13830149412,
+        13830149413,
+        13830149414,
+        13830149415,
+        13830149416,
+        13830149417,
+        13830149418,
+        13830149419,
+        13830149420,
+        13830149421,
+        13830149410
+      ],
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Noberto Bana Sr. Memorial SDA Elementary School"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513894105,
+      "center": {
+        "lat": 7.8191231,
+        "lon": 123.4344811
+      },
+      "nodes": [
+        13830149424,
+        13830149425,
+        13830149426,
+        13830149427,
+        13830149424
+      ],
+      "tags": {
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Pagadian Integrated Bus and Jeepney Terminal 2 (Zamboanga Del Sur)",
+        "network": "Peso Wifi",
+        "operator": "City Government of Pagadian",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1513991040,
+      "center": {
+        "lat": 7.8243176,
+        "lon": 123.4433989
+      },
+      "nodes": [
+        13830874988,
+        13830874989,
+        13830874990,
+        13830874991,
+        13830874988
+      ],
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Aisah Medical Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1530967863,
+      "center": {
+        "lat": 7.823157,
+        "lon": 123.4422874
+      },
+      "nodes": [
+        13953406939,
+        13953406940,
+        13953406941,
+        13953406942,
+        13953406939
+      ],
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "building": "yes",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11278645,
+      "center": {
+        "lat": 7.8337308,
+        "lon": 123.4325976
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 823695770,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695762,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695763,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695742,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695775,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:barangay": "San Jose",
+        "addr:city": "Pagadian City",
+        "addr:place": "San Jose Heights",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Tomas Sagun Elementary School",
+        "operator": "Central District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "470",
+        "population:pupils:date": "2015",
+        "ref": "126048",
+        "specialized_education": "special_needs",
+        "start_date": "2000",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11278646,
+      "center": {
+        "lat": 7.8329489,
+        "lon": 123.4317459
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 823695773,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695774,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695763,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695764,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695771,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:barangay": "San Jose",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "San Jose Heights",
+        "addr:place": "San Jose Heights",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Pagadian City Pilot Central Elementary School",
+        "operator": "Central District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "1855",
+        "population:pupils:date": "2015",
+        "ref": "126046",
+        "specialized_education": "special_needs",
+        "start_date": "2000",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11278647,
+      "center": {
+        "lat": 7.8339759,
+        "lon": 123.4312665
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 823695773,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695772,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695776,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:barangay": "San Jose",
+        "addr:city": "Pagadian City",
+        "addr:neighbourhood": "San Jose Heights",
+        "addr:place": "San Jose Heights",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "education_program": "specialized_education",
+        "isced:level": "2;3",
+        "name": "Pagadian City Science High School",
+        "operator": "Central District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "337",
+        "population:pupils:date": "2015",
+        "ref": "314704",
+        "specialized_education": "science",
+        "start_date": "2008",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11278648,
+      "center": {
+        "lat": 7.832206,
+        "lon": 123.4319503
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 823695740,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695741,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695742,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 823695764,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:barangay": "San Jose",
+        "addr:city": "Pagadian City",
+        "addr:place": "San Jose Heights",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "San Jose Elementary School",
+        "operator": "Central District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "386",
+        "population:pupils:date": "2015",
+        "ref": "126047",
+        "start_date": "2000",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11281815,
+      "center": {
+        "lat": 7.8182202,
+        "lon": 123.4330336
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 824016784,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 824016785,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:place": "Santa Lucia",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "2",
+        "name": "Santa Lucia National High School",
+        "old_name": "Zamboanga del Sur National High School – Santa Lucia Annex",
+        "operator": "South District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "1138",
+        "population:pupils:date": "2015",
+        "ref": "303912",
+        "start_date": "2000",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11281940,
+      "center": {
+        "lat": 7.8242213,
+        "lon": 123.4444724
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 613949996,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384219839,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 824037513,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:barangay": "San Pedro",
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Warlito Pulmones Street",
+        "amenity": "school",
+        "grades": "1-6",
+        "isced:level": "0;1",
+        "name": "San Pedro Central Elementary School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "1625",
+        "population:pupils:date": "2015",
+        "ref": "126052",
+        "start_date": "1953",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 11281941,
+      "center": {
+        "lat": 7.8234783,
+        "lon": 123.4445507
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 613949997,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384219838,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 824037513,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:barangay": "San Pedro",
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:street": "Sabellano Street",
+        "amenity": "school",
+        "isced:level": "2",
+        "name": "San Pedro National High School",
+        "operator": "East District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "420",
+        "population:pupils:date": "2015",
+        "ref": "303911",
+        "start_date": "2000",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17862444,
+      "center": {
+        "lat": 7.8473892,
+        "lon": 123.4454712
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1302927262,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1302927263,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "name": "Bulatok Integrated School",
+        "operator:type": "government",
+        "ref": "314706",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 17862445,
+      "center": {
+        "lat": 7.8474912,
+        "lon": 123.445961
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 771890291,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1302927262,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Pagadian City",
+        "addr:place": "Bulatok",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "amenity": "school",
+        "isced:level": "0;1",
+        "name": "Bulatok Integrated School",
+        "old_name": "Bulatok Elementary School",
+        "operator": "North District Pagadian City Schools Division, DepEd",
+        "operator:type": "government",
+        "operator:wikidata": "Q3550346",
+        "population:pupils": "491",
+        "population:pupils:date": "2015",
+        "ref": "126060",
+        "start_date": "2000",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 19096243,
+      "center": {
+        "lat": 7.8238784,
+        "lon": 123.4440473
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": 1384219839,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384219840,
+          "role": "outer"
+        },
+        {
+          "type": "way",
+          "ref": 1384219838,
+          "role": "outer"
+        }
+      ],
+      "tags": {
+        "addr:city": "Pagadian",
+        "addr:postcode": "7016",
+        "addr:province": "Zamboanga del Sur",
+        "addr:quarter": "San Pedro",
+        "addr:street": "Sabellano Street",
+        "amenity": "school",
+        "name": "Campo Islam Elementary School",
+        "operator:type": "government",
+        "ref": "126049",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}
